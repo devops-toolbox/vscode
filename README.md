@@ -8,10 +8,10 @@ vscode
 Ansible galaxy:
 ---------------
 
-[https://galaxy.ansible.com/devops-toolbox.vscode](https://galaxy.ansible.com/devops-toolbox.vscode)
+[https://galaxy.ansible.com/devopstoolbox.vscode](https://galaxy.ansible.com/devopstoolbox.vscode)
 
 ```bash
-ansible-galaxy install devops-toolbox.vscode
+ansible-galaxy install devopstoolbox.vscode
 ```
 
 Requirements
@@ -65,7 +65,7 @@ Example Playbook
   tasks:
     - name: vscode is configured
       import_role:
-        name: devops-toolbox.vscode
+        name: devopstoolbox.vscode
       vars:
         vscode_extensions_user: cmihai
         vscode_extensions_install:
@@ -100,4 +100,4 @@ MIT
 Author Information
 ------------------
 
-- [Mihai Criveti](https://www.linkedin.com/in/devops-toolbox.)
+- [Mihai Criveti](https://www.linkedin.com/in/devopstoolbox.)

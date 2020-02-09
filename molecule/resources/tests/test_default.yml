@@ -1,0 +1,10 @@
+# Molecule managed
+---
+file:
+  /usr/bin/code:
+    exists: true
+    owner: root
+    group: root
+package:
+  code:
+    installed: true
